@@ -1,0 +1,10 @@
+---
+ansible_user: vagrant
+ansible_pass: vagrant
+ansible_ssh_pass: vagrant
+ansible_ssh_extra_args: '-o PreferredAuthentications=password'
+ansible_sudo_pass: root
+ansible_python_interpreter: "/usr/bin/python3"
+port: "80"
+welcome: Bienvenue sur le serveur {{ ansible_hostname }}
+...
